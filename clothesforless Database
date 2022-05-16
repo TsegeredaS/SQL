@@ -1,0 +1,19 @@
+CREATE TABLE clothesforless(id integer primary key,itemname text, quantity integer,price integer,amountsold integer);
+
+INSERT  INTO clothesforless values
+(1,'sweater',100,20,50),
+(2,'dress',150,40,75),
+(3,'pants',70,30,35),
+(4,'shirt',60,25,30),
+(5,'jacket',40,60,20),
+(6,'socks',60,5,30),
+(7,'spanks',80,10,5),
+(8,'blouse',50,20,25),
+(9,'vest',30,20,15),
+(10,'shorts',40,10,20);
+
+SELECT * FROM  clothesforless
+ORDER BY price;
+
+ SELECT * FROM  clothesforless
+ORDER BY amountsold DESC;
